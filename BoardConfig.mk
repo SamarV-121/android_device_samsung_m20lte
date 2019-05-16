@@ -59,6 +59,7 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
+TW_USE_TOOLBOX := true
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/m20lte/include
