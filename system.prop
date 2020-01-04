@@ -1,5 +1,0 @@
-ro.hardware=samsungexynos7885
-ro.chipname=exynos7904
-ro.arch=exynos7885
-ro.boot.bootdevice=13500000.dwmmc0
-ro.sf.lcd_density=480
