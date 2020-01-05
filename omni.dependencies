@@ -1,2 +1,8 @@
 [
+  {
+    "repository": "SamarV-121/android_kernel_samsung_m20lte",
+    "target_path": "kernel/samsung/m20lte
+    "branch": "lineage-17.1",
+    "remote": "github"
+  }
 ]

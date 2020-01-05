@@ -12,8 +12,8 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := m20lte_03_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/universal7904
+TARGET_KERNEL_CONFIG := m20lte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/m20lte
 
 # Image
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/m20lte/mkbootimg.mk
