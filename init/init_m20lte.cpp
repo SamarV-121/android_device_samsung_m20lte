@@ -6,6 +6,7 @@
 
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
+#include <sys/sysinfo.h>
 #include <android-base/properties.h>
 #include <android-base/logging.h>
 #include <vector>
@@ -60,6 +61,16 @@ void set_build_fingerprint(string device, string name, string build) {
     set_ro_build_prop("device", device, false);
 }
 
+void set_avoid_gfxaccel_config() {
+    struct sysinfo sys;
+    sysinfo(&sys);
+
+    if (sys.totalram <= 3072ull * 1024 * 1024) {
+        // Reduce memory footprint
+        property_override("ro.config.avoid_gfx_accel", "true");
+    }
+}
+
 void vendor_load_properties() {
     string model;
 
@@ -85,4 +96,6 @@ void vendor_load_properties() {
 
     set_ro_build_prop("model", model);
     set_ro_build_prop("product", model, false);
+
+    set_avoid_gfxaccel_config();
 }
