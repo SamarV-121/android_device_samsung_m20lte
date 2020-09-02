@@ -5,4 +5,4 @@ TARGET_KERNEL_SOURCE := kernel/samsung/m20lte
 TARGET_KERNEL_CONFIG := m20lte_defconfig
 
 # Inherit common board flags
-include device/samsung/universal7885-common/BoardConfigCommon.mk
+include device/samsung/universal7904-common/BoardConfigCommon.mk
