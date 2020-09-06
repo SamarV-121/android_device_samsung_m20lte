@@ -1,0 +1,3 @@
+# Camera-Light sensor
+etc/permissions/privapp-permissions-com.samsung.adaptivebrightnessgo.cameralightsensor.xml
+-priv-app/CameraLightSensor/CameraLightSensor.apk
