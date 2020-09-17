@@ -17,3 +17,9 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+BUILD_FINGERPRINT := "samsung/m20ltedd/m20lte:10/QP1A.190711.020/M205FDDU5CTF2:user/release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+        PRODUCT_NAME=m20ltedd \
+        PRIVATE_BUILD_DESC="m20ltedd-user 10 QP1A.190711.020 M205FDDS6CTH4 release-keys"
