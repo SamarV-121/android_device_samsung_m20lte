@@ -20,3 +20,6 @@ PRODUCT_PACKAGES += \
 	fstab.exynos7904 \
 	init.target.rc \
 	init.baseband.rc
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
