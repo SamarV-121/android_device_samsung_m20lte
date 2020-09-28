@@ -8,3 +8,6 @@ include device/samsung/universal7904-common/BoardConfigCommon.mk
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3565158400
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/recovery.fstab
