@@ -1,0 +1,10 @@
+on init
+    # Reactivation Lock
+    symlink /dev/block/platform/13500000.dwmmc0/by-name/STEADY /dev/block/steady
+
+    # Google FRP solution
+    symlink /dev/block/platform/13500000.dwmmc0/by-name/PERSISTENT /dev/block/persistent
+ 
+on boot
+    # Permissions for NAD
+    symlink /dev/block/platform/13500000.dwmmc0/by-name/NAD_REFER /dev/block/NAD_REFER

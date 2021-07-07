@@ -5,6 +5,8 @@ $(call inherit-product, device/samsung/universal7904-common/universal7904-common
 
 $(call inherit-product, vendor/samsung/m20lte/m20lte-vendor.mk)
 
-# fstab
+# Rootdir
 PRODUCT_PACKAGES += \
-	fstab.exynos7904
+	fstab.exynos7904 \
+	init.target.rc \
+	init.baseband.rc
