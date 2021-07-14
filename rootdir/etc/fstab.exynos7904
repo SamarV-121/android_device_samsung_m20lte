@@ -6,7 +6,7 @@
 # system and vendor partition will be early-mounted by kernel
 # /dev/block/platform/13500000.dwmmc0/by-name/SYSTEM	/system		ext4	ro,errors=panic		wait,verify
 /dev/block/platform/13500000.dwmmc0/by-name/CACHE	/cache	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check
-/dev/block/platform/13500000.dwmmc0/by-name/USERDATA	/data	f2fs	noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678	wait,check,encryptable=footer,quota,reservedsize=128M,length=-20480
+/dev/block/platform/13500000.dwmmc0/by-name/USERDATA	/data	f2fs	noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678	wait,check,forceencrypt=footer,quota,reservedsize=128M,length=-20480
 /dev/block/platform/13500000.dwmmc0/by-name/EFS	/mnt/vendor/efs	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check
 /dev/block/platform/13500000.dwmmc0/by-name/CPEFS	/mnt/vendor/cpefs	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,nofail
 /dev/block/platform/13500000.dwmmc0/by-name/MISC	/misc	emmc      defaults  defaults
