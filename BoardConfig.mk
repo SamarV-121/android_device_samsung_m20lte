@@ -15,3 +15,6 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 39845888
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/recovery.fstab
+
+# Sepolicy
+BOARD_SEPOLICY_TEE_FLAVOR := mobicore
