@@ -1,5 +1,8 @@
 DEVICE_PATH := device/samsung/m20lte
 
+# Board
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # Kernel
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := m20lte_defconfig
