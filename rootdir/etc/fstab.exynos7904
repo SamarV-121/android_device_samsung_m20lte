@@ -13,7 +13,7 @@ vendor		/vendor		ext4	ro											wait,logical,first_stage_mount
 /dev/block/platform/13500000.dwmmc0/by-name/EFS	/mnt/vendor/efs	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check
 /dev/block/platform/13500000.dwmmc0/by-name/CPEFS	/mnt/vendor/cpefs	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,nofail
 /dev/block/platform/13500000.dwmmc0/by-name/MISC	/misc	emmc      defaults  defaults
-/dev/block/platform/13500000.dwmmc0/by-name/HIDDEN /metadata ext4   noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic wait,first_stage_mount,formattable,check
+/dev/block/platform/13500000.dwmmc0/by-name/HIDDEN /metadata ext4   noatime,nosuid,nodev,discard wait,first_stage_mount,formattable,check
 
 # VOLD
 /devices/platform/13550000.dwmmc2/mmc_host/mmc1*        auto        vfat    defaults    voldmanaged=sdcard:auto
