@@ -21,5 +21,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 BUILD_FINGERPRINT := "samsung/m20ltedd/m20lte:10/QP1A.190711.020/M205FDDU8CUD3:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=m20ltedd \
-        PRIVATE_BUILD_DESC="m20ltedd-user 10 QP1A.190711.020 M205FDDU8CUD3 release-keys"
+        PRODUCT_NAME=m20ltedd
