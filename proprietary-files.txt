@@ -1,4 +1,4 @@
-# All blobs below are extracted from m20lteeea-user-10-QP1A.190711.020-M205FNEES7CUB1-release-keys
+# All blobs below are extracted from m20lteeea-user-10-QP1A.190711.020-M205FNEEU8CUG1-release-keys
 
 # Camera
 vendor/firmware/fimc_is_lib.bin
