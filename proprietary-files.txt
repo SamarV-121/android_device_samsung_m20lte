@@ -6,65 +6,65 @@ vendor/firmware/fimc_is_rta.bin
 vendor/firmware/setfile_3l6.bin
 vendor/firmware/setfile_4ha.bin
 vendor/firmware/setfile_5e9.bin
-vendor/lib/hw/camera.exynos7904.so
-vendor/lib/libOpenCv.camera.samsung.so
-vendor/lib/libcsc.so
-vendor/lib/libexynoscamera.so
-vendor/lib/libexynoscamera3.so
-vendor/lib/libgiantmscl.so
-vendor/lib/libhifills.so
-vendor/lib/libhifills_interface.so
-vendor/lib/libhigh_dynamic_range.so
-vendor/lib/libhwjpeg.so
-vendor/lib/libmfhdr_interface.so
-vendor/lib/libmpbase.so
-vendor/lib/libsaiv_BeautySolutionVideo.so
-vendor/lib/libsensorlistener.so
-vendor/lib/libuniapi.so
-vendor/lib/libuniplugin.so
-vendor/lib/libvideobeauty_interface.so
-vendor/lib64/hw/camera.exynos7904.so
-vendor/lib64/libOpenCv.camera.samsung.so
-vendor/lib64/libcsc.so
-vendor/lib64/libexynoscamera.so
-vendor/lib64/libexynoscamera3.so
-vendor/lib64/libgiantmscl.so
-vendor/lib64/libhifills.so
-vendor/lib64/libhifills_interface.so
-vendor/lib64/libhigh_dynamic_range.so
-vendor/lib64/libhwjpeg.so
-vendor/lib64/libmfhdr_interface.so
-vendor/lib64/libmpbase.so
-vendor/lib64/libsaiv_BeautySolutionVideo.so
-vendor/lib64/libsensorlistener.so
-vendor/lib64/libuniapi.so
-vendor/lib64/libuniplugin.so
-vendor/lib64/libvideobeauty_interface.so
+-vendor/lib/hw/camera.exynos7904.so
+-vendor/lib/libOpenCv.camera.samsung.so
+-vendor/lib/libcsc.so
+-vendor/lib/libexynoscamera.so
+-vendor/lib/libexynoscamera3.so
+-vendor/lib/libgiantmscl.so
+-vendor/lib/libhifills.so
+-vendor/lib/libhifills_interface.so
+-vendor/lib/libhigh_dynamic_range.so
+-vendor/lib/libhwjpeg.so
+-vendor/lib/libmfhdr_interface.so
+-vendor/lib/libmpbase.so
+-vendor/lib/libsaiv_BeautySolutionVideo.so
+-vendor/lib/libsensorlistener.so
+-vendor/lib/libuniapi.so
+-vendor/lib/libuniplugin.so
+-vendor/lib/libvideobeauty_interface.so
+-vendor/lib64/hw/camera.exynos7904.so
+-vendor/lib64/libOpenCv.camera.samsung.so
+-vendor/lib64/libcsc.so
+-vendor/lib64/libexynoscamera.so
+-vendor/lib64/libexynoscamera3.so
+-vendor/lib64/libgiantmscl.so
+-vendor/lib64/libhifills.so
+-vendor/lib64/libhifills_interface.so
+-vendor/lib64/libhigh_dynamic_range.so
+-vendor/lib64/libhwjpeg.so
+-vendor/lib64/libmfhdr_interface.so
+-vendor/lib64/libmpbase.so
+-vendor/lib64/libsaiv_BeautySolutionVideo.so
+-vendor/lib64/libsensorlistener.so
+-vendor/lib64/libuniapi.so
+-vendor/lib64/libuniplugin.so
+-vendor/lib64/libvideobeauty_interface.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.exynos7904.so
-vendor/lib64/hw/gatekeeper.exynos7904.so
+-vendor/lib/hw/gatekeeper.exynos7904.so
+-vendor/lib64/hw/gatekeeper.exynos7904.so
 
 # Fingerprint
-vendor/lib/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
-vendor/lib64/libbauthserver.so
-vendor/lib64/libbauthtzcommon.so
+-vendor/lib/libbauthserver.so
+-vendor/lib/libbauthtzcommon.so
+-vendor/lib64/libbauthserver.so
+-vendor/lib64/libbauthtzcommon.so
 
 # Keymaster
-vendor/lib/libskeymaster3device.so
-vendor/lib64/hw/keystore.mdfpp.so
-vendor/lib64/libkeymaster2_mdfpp.so
-vendor/lib64/libkeymaster_helper_vendor.so
-vendor/lib64/libskeymaster3device.so
+-vendor/lib/libskeymaster3device.so
+-vendor/lib64/hw/keystore.mdfpp.so
+-vendor/lib64/libkeymaster2_mdfpp.so
+-vendor/lib64/libkeymaster_helper_vendor.so
+-vendor/lib64/libskeymaster3device.so
 
 # NFC
 vendor/etc/nfc/sec_s3nrn81_rfreg.bin
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 
 # Sensors
-vendor/lib/hw/sensors.universal7904.so
-vendor/lib64/hw/sensors.universal7904.so
+-vendor/lib/hw/sensors.universal7904.so
+-vendor/lib64/hw/sensors.universal7904.so
 
 # TEE
 vendor/app/mcRegistry/00060308060501020000000000000000.tlbin
@@ -87,15 +87,15 @@ vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
 vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin
-vendor/bin/hw/vendor.trustonic.tee@1.0-service
-vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
-vendor/bin/mcDriverDaemon
+-vendor/bin/hw/vendor.trustonic.tee@1.0-service
+-vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
+-vendor/bin/mcDriverDaemon
 vendor/etc/init/mobicore.rc
 vendor/etc/init/vendor.trustonic.tee@1.0-service.rc
 vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
-vendor/lib/libMcClient.so
-vendor/lib/vendor.trustonic.tee@1.0.so
-vendor/lib/vendor.trustonic.teeregistry@1.0.so
-vendor/lib64/libMcClient.so
-vendor/lib64/vendor.trustonic.tee@1.0.so
-vendor/lib64/vendor.trustonic.teeregistry@1.0.so
+-vendor/lib/libMcClient.so
+-vendor/lib/vendor.trustonic.tee@1.0.so
+-vendor/lib/vendor.trustonic.teeregistry@1.0.so
+-vendor/lib64/libMcClient.so
+-vendor/lib64/vendor.trustonic.tee@1.0.so
+-vendor/lib64/vendor.trustonic.teeregistry@1.0.so
