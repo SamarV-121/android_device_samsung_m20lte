@@ -8,7 +8,7 @@
 /dev/block/platform/13500000.dwmmc0/by-name/BOOT		/boot		emmc	defaults									recoveryonly
 /dev/block/platform/13500000.dwmmc0/by-name/RECOVERY	/recovery	emmc	defaults									recoveryonly
 /dev/block/platform/13500000.dwmmc0/by-name/CACHE	/cache	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check
-/dev/block/platform/13500000.dwmmc0/by-name/USERDATA	/data	f2fs	noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678	wait,check,latemount,forceencrypt=footer,quota,reservedsize=128M,length=-20480
+/dev/block/platform/13500000.dwmmc0/by-name/USERDATA	/data	f2fs	noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678	wait,check,latemount,fileencryption=aes-256-xts,reservedsize=128M,quota
 /dev/block/platform/13500000.dwmmc0/by-name/EFS	/mnt/vendor/efs	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check
 /dev/block/platform/13500000.dwmmc0/by-name/CPEFS	/mnt/vendor/cpefs	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,nofail
 /dev/block/platform/13500000.dwmmc0/by-name/MISC	/misc	emmc      defaults  defaults
