@@ -11,9 +11,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     libkeymaster3device
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/android.hardware.keymaster@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.keymaster@3.0-service.xml
-
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
