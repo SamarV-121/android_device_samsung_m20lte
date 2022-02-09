@@ -1,4 +1,4 @@
-# All blobs below are extracted from m20lteeea-user-10-QP1A.190711.020-M205FNEEU8CUG1-release-keys
+# All blobs below are extracted from m20ltedx-user 10 QP1A.190711.020 M205GDXU7CUI1 release-keys
 
 # Camera
 vendor/firmware/fimc_is_lib.bin
@@ -61,9 +61,9 @@ vendor/firmware/setfile_5e9.bin
 -vendor/lib64/libkeymaster_helper_vendor.so
 -vendor/lib64/libskeymaster3device.so
 
-# NFC
-vendor/etc/nfc/sec_s3nrn81_rfreg.bin
-vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+# NFC - from m20lteeea-user-10-QP1A.190711.020-M205FNEEU8CUG1-release-keys
+vendor/etc/nfc/sec_s3nrn81_rfreg.bin|d50224c9a557e4a3d7cfd3400e71adb32760555a
+vendor/firmware/nfc/sec_s3nrn81_firmware.bin|0a0f133ccdb05297a0798edc9ad60a126aaf5453
 
 # Sensors
 -vendor/lib/hw/sensors.universal7904.so
