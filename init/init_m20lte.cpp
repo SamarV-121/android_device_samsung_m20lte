@@ -89,7 +89,6 @@ void vendor_load_properties() {
         set_build_fingerprint("m20lte", "m20lteub", "M205MUBU8CUE1");
     } else if (model == "SM-M205FN") {
         set_build_fingerprint("m20lte", "m20lteeea", "M205FNEEU8CUG1");
-        property_override("ro.boot.product.hardware.sku", "NFC");
     } else {
         LOG(ERROR) << __func__ << ": Coudn't indentify model!";
     }
