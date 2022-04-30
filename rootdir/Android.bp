@@ -1,0 +1,20 @@
+prebuilt_etc {
+    name: "fstab.exynos7904",
+    required: ["fstab.ramdisk"],
+    src: "etc/fstab.exynos7904",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "etc/init.target.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.baseband.rc",
+    src: "etc/init.baseband.rc",
+    relative_install_path: "init",
+    vendor: true,
+}
