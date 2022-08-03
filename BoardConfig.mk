@@ -1,8 +1,5 @@
 DEVICE_PATH := device/samsung/m20lte
 
-# Board
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_m20lte
 
