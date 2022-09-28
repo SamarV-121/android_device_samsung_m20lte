@@ -23,39 +23,18 @@ vendor/firmware/setfile_5e9.bin
 -vendor/lib/libuniapi.so
 -vendor/lib/libuniplugin.so
 -vendor/lib/libvideobeauty_interface.so
--vendor/lib64/hw/camera.exynos7904.so:vendor/lib64/hw/camera.vendor.exynos7904.so
--vendor/lib64/libOpenCv.camera.samsung.so
--vendor/lib64/libcsc.so
--vendor/lib64/libexynoscamera.so
--vendor/lib64/libexynoscamera3.so
--vendor/lib64/libgiantmscl.so
--vendor/lib64/libhifills.so
--vendor/lib64/libhifills_interface.so
--vendor/lib64/libhigh_dynamic_range.so
--vendor/lib64/libhwjpeg.so
--vendor/lib64/libmfhdr_interface.so
--vendor/lib64/libmpbase.so
--vendor/lib64/libsaiv_BeautySolutionVideo.so
--vendor/lib64/libsensorlistener.so
--vendor/lib64/libuniapi.so
--vendor/lib64/libuniplugin.so
--vendor/lib64/libvideobeauty_interface.so
 
 # DRM
 -vendor/lib/liboemcrypto.so
 
 # Gatekeeper
--vendor/lib/hw/gatekeeper.exynos7904.so
 -vendor/lib64/hw/gatekeeper.exynos7904.so
 
 # Fingerprint
--vendor/lib/libbauthserver.so
--vendor/lib/libbauthtzcommon.so
 -vendor/lib64/libbauthserver.so
 -vendor/lib64/libbauthtzcommon.so
 
 # Keymaster
--vendor/lib/libskeymaster3device.so
 -vendor/lib64/hw/keystore.mdfpp.so
 -vendor/lib64/libkeymaster2_mdfpp.so
 -vendor/lib64/libkeymaster_helper_vendor.so
@@ -66,7 +45,6 @@ vendor/etc/nfc/sec_s3nrn81_rfreg.bin
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 
 # Sensors
--vendor/lib/hw/sensors.universal7904.so
 -vendor/lib64/hw/sensors.universal7904.so
 
 # TEE
@@ -96,9 +74,6 @@ vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin
 vendor/etc/init/mobicore.rc
 vendor/etc/init/vendor.trustonic.tee@1.0-service.rc
 vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
--vendor/lib/libMcClient.so
--vendor/lib/vendor.trustonic.tee@1.0.so
--vendor/lib/vendor.trustonic.teeregistry@1.0.so
 -vendor/lib64/libMcClient.so
 -vendor/lib64/vendor.trustonic.tee@1.0.so
 -vendor/lib64/vendor.trustonic.teeregistry@1.0.so
