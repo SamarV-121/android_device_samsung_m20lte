@@ -13,7 +13,9 @@ TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3565158400
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 39845888
 
-BOARD_ROOT_EXTRA_SYMLINKS := /mnt/vendor/efs:/efs
+BOARD_ROOT_EXTRA_SYMLINKS := \
+    /mnt/vendor/efs:/efs \
+    /mnt/vendor/efs:/factory
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.exynos7904
