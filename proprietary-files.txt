@@ -74,6 +74,7 @@ vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin
 vendor/etc/init/mobicore.rc
 vendor/etc/init/vendor.trustonic.tee@1.0-service.rc
 vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
+-vendor/lib/libMcClient.so
 -vendor/lib64/libMcClient.so
 -vendor/lib64/vendor.trustonic.tee@1.0.so
 -vendor/lib64/vendor.trustonic.teeregistry@1.0.so
