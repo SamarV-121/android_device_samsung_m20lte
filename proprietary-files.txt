@@ -8,14 +8,11 @@ vendor/firmware/setfile_4ha.bin
 vendor/firmware/setfile_5e9.bin
 -vendor/lib64/hw/camera.exynos7904.so
 -vendor/lib64/libOpenCv.camera.samsung.so
--vendor/lib64/libcsc.so
 -vendor/lib64/libexynoscamera.so
 -vendor/lib64/libexynoscamera3.so
--vendor/lib64/libgiantmscl.so
 -vendor/lib64/libhifills.so
 -vendor/lib64/libhifills_interface.so
 -vendor/lib64/libhigh_dynamic_range.so
--vendor/lib64/libhwjpeg.so
 -vendor/lib64/libmfhdr_interface.so
 -vendor/lib64/libmpbase.so
 -vendor/lib64/libsaiv_BeautySolutionVideo.so
