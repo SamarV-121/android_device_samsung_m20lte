@@ -7,7 +7,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_m20lte
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := m20lte_defconfig
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
-TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
+TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos.universal7904
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3565158400
