@@ -1,5 +1,8 @@
 DEVICE_PATH := device/samsung/m20lte
 
+# Camera
+BOARD_HWJPEG_ANDROID_VERSION := 10
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_m20lte
 
