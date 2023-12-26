@@ -5,6 +5,10 @@ $(call inherit-product, device/samsung/universal7904-common/universal7904-common
 
 $(call inherit-product, vendor/samsung/m20lte/m20lte-vendor.mk)
 
+# Graphics
+PRODUCT_PACKAGES += \
+    libexynosgscaler
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
