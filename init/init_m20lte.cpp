@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 The LineageOS Project
+ * Copyright (C) 2021-2024 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
 */
@@ -61,13 +61,12 @@ void set_build_fingerprint(string device, string name, string build) {
     set_ro_build_prop("device", device, false);
 }
 
-void set_avoid_gfxaccel_config() {
+void set_low_ram_config() {
     struct sysinfo sys;
     sysinfo(&sys);
 
     if (sys.totalram <= 3072ull * 1024 * 1024) {
-        // Reduce memory footprint
-        property_override("ro.config.avoid_gfx_accel", "true");
+        property_override("ro.config.low_ram", "true");
     }
 }
 
@@ -96,5 +95,5 @@ void vendor_load_properties() {
     set_ro_build_prop("model", model);
     set_ro_build_prop("product", model, false);
 
-    set_avoid_gfxaccel_config();
+    set_low_ram_config();
 }
