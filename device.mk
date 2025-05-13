@@ -9,6 +9,9 @@ $(call inherit-product, vendor/samsung/m20lte/m20lte-vendor.mk)
 PRODUCT_PACKAGES += \
     libexynosgscaler
 
+# Init
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_m20lte)
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
