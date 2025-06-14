@@ -7,7 +7,7 @@ vendor/firmware/setfile_3l6.bin
 vendor/firmware/setfile_4ha.bin
 vendor/firmware/setfile_5e9.bin
 -vendor/lib64/hw/camera.exynos7904.so
--vendor/lib64/libOpenCv.camera.samsung.so
+-vendor/lib64/libOpenCv.camera.samsung.so;DISABLE_CHECKELF
 -vendor/lib64/libexynoscamera.so
 -vendor/lib64/libexynoscamera3.so
 -vendor/lib64/libhifills.so
@@ -33,8 +33,8 @@ vendor/firmware/setfile_5e9.bin
 # Keymaster
 -vendor/lib64/hw/keystore.mdfpp.so
 -vendor/lib64/libkeymaster2_mdfpp.so
--vendor/lib64/libkeymaster_helper_vendor.so
--vendor/lib64/libskeymaster3device.so
+-vendor/lib64/libkeymaster_helper_vendor.so;DISABLE_CHECKELF
+-vendor/lib64/libskeymaster3device.so;DISABLE_CHECKELF
 
 # NFC - from M205FNXXU8CVF1
 vendor/etc/nfc/sec_s3nrn81_rfreg.bin|d50224c9a557e4a3d7cfd3400e71adb32760555a
