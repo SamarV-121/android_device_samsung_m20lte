@@ -6,42 +6,42 @@ vendor/firmware/fimc_is_rta.bin
 vendor/firmware/setfile_3l6.bin
 vendor/firmware/setfile_4ha.bin
 vendor/firmware/setfile_5e9.bin
--vendor/lib64/hw/camera.exynos7904.so
--vendor/lib64/libOpenCv.camera.samsung.so;DISABLE_CHECKELF
--vendor/lib64/libexynoscamera.so
--vendor/lib64/libexynoscamera3.so
--vendor/lib64/libhifills.so
--vendor/lib64/libhifills_interface.so
--vendor/lib64/libhigh_dynamic_range.so
--vendor/lib64/libmfhdr_interface.so
--vendor/lib64/libmpbase.so
--vendor/lib64/libsaiv_BeautySolutionVideo.so
--vendor/lib64/libsensorlistener.so
--vendor/lib64/libuniapi.so
--vendor/lib64/libuniplugin.so
+-vendor/lib64/hw/camera.exynos7904.so;DISABLE_DEPS
+-vendor/lib64/libOpenCv.camera.samsung.so;DISABLE_DEPS
+-vendor/lib64/libexynoscamera.so;DISABLE_DEPS
+-vendor/lib64/libexynoscamera3.so;DISABLE_DEPS
+-vendor/lib64/libhifills.so;DISABLE_DEPS
+-vendor/lib64/libhifills_interface.so;DISABLE_DEPS
+-vendor/lib64/libhigh_dynamic_range.so;DISABLE_DEPS
+-vendor/lib64/libmfhdr_interface.so;DISABLE_DEPS
+-vendor/lib64/libmpbase.so;DISABLE_DEPS
+-vendor/lib64/libsaiv_BeautySolutionVideo.so;DISABLE_DEPS
+-vendor/lib64/libsensorlistener.so;DISABLE_DEPS
+-vendor/lib64/libuniapi.so;DISABLE_DEPS
+-vendor/lib64/libuniplugin.so;DISABLE_DEPS
 
 # DRM
--vendor/lib/liboemcrypto.so
+-vendor/lib/liboemcrypto.so;DISABLE_DEPS
 
 # Gatekeeper
--vendor/lib64/hw/gatekeeper.exynos7904.so
+-vendor/lib64/hw/gatekeeper.exynos7904.so;DISABLE_DEPS
 
 # Fingerprint
--vendor/lib64/libbauthserver.so
--vendor/lib64/libbauthtzcommon.so
+-vendor/lib64/libbauthserver.so;DISABLE_DEPS
+-vendor/lib64/libbauthtzcommon.so;DISABLE_DEPS
 
 # Keymaster
--vendor/lib64/hw/keystore.mdfpp.so
--vendor/lib64/libkeymaster2_mdfpp.so
--vendor/lib64/libkeymaster_helper_vendor.so;DISABLE_CHECKELF
--vendor/lib64/libskeymaster3device.so;DISABLE_CHECKELF
+-vendor/lib64/hw/keystore.mdfpp.so;DISABLE_DEPS
+-vendor/lib64/libkeymaster2_mdfpp.so;DISABLE_DEPS
+-vendor/lib64/libkeymaster_helper_vendor.so;DISABLE_DEPS
+-vendor/lib64/libskeymaster3device.so;DISABLE_DEPS
 
 # NFC - from M205FNXXU8CVF1
 vendor/etc/nfc/sec_s3nrn81_rfreg.bin|d50224c9a557e4a3d7cfd3400e71adb32760555a
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin|0a0f133ccdb05297a0798edc9ad60a126aaf5453
 
 # Sensors
--vendor/lib64/hw/sensors.universal7904.so
+-vendor/lib64/hw/sensors.universal7904.so;DISABLE_DEPS
 
 # TEE
 vendor/app/mcRegistry/00060308060501020000000000000000.tlbin
@@ -64,13 +64,13 @@ vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
 vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin
--vendor/bin/hw/vendor.trustonic.tee@1.0-service
--vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service
--vendor/bin/mcDriverDaemon
+-vendor/bin/hw/vendor.trustonic.tee@1.0-service;DISABLE_DEPS
+-vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service;DISABLE_DEPS
+-vendor/bin/mcDriverDaemon;DISABLE_DEPS
 vendor/etc/init/mobicore.rc
 vendor/etc/init/vendor.trustonic.tee@1.0-service.rc
 vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc
--vendor/lib/libMcClient.so
--vendor/lib64/libMcClient.so
--vendor/lib64/vendor.trustonic.tee@1.0.so
--vendor/lib64/vendor.trustonic.teeregistry@1.0.so
+-vendor/lib/libMcClient.so;DISABLE_DEPS
+-vendor/lib64/libMcClient.so;DISABLE_DEPS
+-vendor/lib64/vendor.trustonic.tee@1.0.so;DISABLE_DEPS
+-vendor/lib64/vendor.trustonic.teeregistry@1.0.so;DISABLE_DEPS

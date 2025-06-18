@@ -5,13 +5,18 @@ $(call inherit-product, device/samsung/universal7904-common/universal7904-common
 
 $(call inherit-product, vendor/samsung/m20lte/m20lte-vendor.mk)
 
+# Graphics
+PRODUCT_PACKAGES += \
+    libexynosgscaler
+
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_m20lte)
 
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
-    android.hardware.keymaster@3.0-impl
+    android.hardware.keymaster@3.0-impl \
+    libkeymaster3device
 
 # NFC
 PRODUCT_COPY_FILES += \
